@@ -1,0 +1,66 @@
+# all_wars_matrix is available in your workspace
+all_wars_matrix
+                           US non-US
+A New Hope              461.0  314.4
+The Empire Strikes Back 290.5  247.9
+Return of the Jedi      309.3  165.8
+The Phantom Menace      474.5  552.5
+Attack of the Clones    310.7  338.7
+Revenge of the Sith     380.3  468.5
+# Select the non-US revenue for all movies
+non_us_all <- all_wars_matrix[1:3, 2]
+  
+# Average non-US revenue
+mean(non_us_all)
+[1] 242.7
+  
+# Select the non-US revenue for first two movies
+non_us_some <- all_wars_matrix[1:2, 2]
+  
+# Average non-US revenue for first two movies
+mean(non_us_some)
+[1] 281.15
+# all_wars_matrix is available in your workspace
+all_wars_matrix
+                           US non-US
+A New Hope              461.0  314.4
+The Empire Strikes Back 290.5  247.9
+Return of the Jedi      309.3  165.8
+The Phantom Menace      474.5  552.5
+Attack of the Clones    310.7  338.7
+Revenge of the Sith     380.3  468.5
+# Select the non-US revenue for all movies
+non_us_all <- all_wars_matrix[1:3, 2]
+  
+# Average non-US revenue
+mean(non_us_all)
+[1] 242.7
+  
+# Select the non-US revenue for first two movies
+non_us_some <- all_wars_matrix[, 2]
+  
+# Average non-US revenue for first two movies
+mean(non_us_some)
+[1] 347.9667
+# all_wars_matrix is available in your workspace
+all_wars_matrix
+                           US non-US
+A New Hope              461.0  314.4
+The Empire Strikes Back 290.5  247.9
+Return of the Jedi      309.3  165.8
+The Phantom Menace      474.5  552.5
+Attack of the Clones    310.7  338.7
+Revenge of the Sith     380.3  468.5
+# Select the non-US revenue for all movies
+non_us_all <- all_wars_matrix[,2]
+  
+# Average non-US revenue
+mean(non_us_all)
+[1] 347.9667
+  
+# Select the non-US revenue for first two movies
+non_us_some <- all_wars_matrix[1:2,2]
+  
+# Average non-US revenue for first two movies
+mean(non_us_some)
+[1] 281.15
